@@ -1,0 +1,33 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Description": "AWS CloudFormation Template for EC2 Instance With Security Group",
+	"Resources": {
+		"EC2Instance": {
+			"Type": "AWS::EC2::Instance",
+			"Properties": {
+				"InstanceType": "t2.micro",
+				"KeyName": "sixthblockawskeypair",
+				"IamInstanceProfile": "CodeDeployDemo-EC2-Instance-Profile",
+				"ImageId":"ami-b280a3d7",
+				"SubnetId":"subnet-134f855e",				
+				"SecurityGroupIds": [
+					"sg-ec439084"
+				],
+				"Tags": [{
+					"Key": "Name",
+					"Value": "LaunchedFromPipelineCFT"
+				}],
+				"UserData": {
+					"Fn::Base64": {
+						"Fn::Join": [
+							"", [
+								"sudo yum update -y"
+								
+							]
+						]
+					}
+				}
+			}
+		}
+	}
+}
