@@ -62,7 +62,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coding Cage - Login & Registration System</title>
+<title>SIXTHBLOCK</title>
 <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css"  />
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -71,7 +71,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 <style>
   .jumbotron {
-      background-color: #f4511e;
+      background-color: #00aeef;
       color: #fff;
   }
 .container {
@@ -88,8 +88,8 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <body>
 
 <div class="jumbotron text-center">
-  <h1>Company</h1> 
-  <p>We specialize in blablabla</p> 
+  <h1>SIXTHBLOCK</h1> 
+  <p></p> 
 </div>
 
 
@@ -99,11 +99,11 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 <div class="container-fluid text-center">    
   
     <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
+      <h1></h1>
       <p></p>
       <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
+      <h3></h3>
+      <p></p>
     </div>
     <div class="col-sm-4 sidenav">
       
@@ -114,7 +114,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
     
         
         	<div class="form-group">
-            	<h2 class="">Sign In.</h2>
+            	<h2 class="">Sign In</h2>
             </div>
             
             <?php
@@ -159,7 +159,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
             </div>
             
             <div class="form-group">
-            	<a href="register.php">Sign Up Here...</a>
+            	<a href="register.php">Sign Up Here</a>
             </div>
         
         </div>

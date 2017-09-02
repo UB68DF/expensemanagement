@@ -9,7 +9,7 @@
 	define('DBPASS', 'sb##123');
 	define('DBNAME', 'mydb');
 	
-	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
+	$conn = mysqli_connect(DBHOST,DBUSER,DBPASS);
 	$dbcon = mysql_select_db(DBNAME);
 	
 	if ( !$conn ) {
