@@ -100,7 +100,7 @@ $records = mysqli_query($con,$sql);
                    
                    <thead>
                    
-                     <th>ExpenseId.</th>
+                     <th>ExpenseId1.</th>
                      <th>Category.</th>
                      <th>Vendor Name.</th>
                      <th>Details.</th>
