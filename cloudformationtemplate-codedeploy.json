@@ -15,7 +15,7 @@
 				],
 				"Tags": [{
 					"Key": "Name",
-					"Value": "LaunchedFromPipelineCFT"
+					"Value": "ExpenseSystem-Stage"
 				}],
 				"UserData": {
 					"Fn::Base64": {
